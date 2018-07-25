@@ -1,0 +1,6 @@
+redis:
+    host: ''
+    port: 
+    password: ''
+    timeout:
+    dbindex: 0

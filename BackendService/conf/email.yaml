@@ -1,0 +1,7 @@
+host: 'smtp.host'
+port: 465
+user: 'noreply@esportschain.org'
+pwd: '**********'
+crypto: 'ssl'
+notice_list:
+    - alert@esportschain.org

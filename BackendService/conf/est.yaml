@@ -1,0 +1,13 @@
+base:
+    provider_url: "JSON-RPC"
+    contract_address: '0x***************************14'
+    erc20_abi: '[..........]'
+    from_address: "0x****************************98"
+    
+    private_key:
+        url: "http://keyserver/get_pkey"
+        tk: "************************"
+        sig: "localhost"
+
+
+

@@ -1,0 +1,29 @@
+vhost_esportschain:
+    host: 127.0.0.1
+    login: user
+    password: pwd
+    vhost: esportschain
+vhost_:
+    host: 127.0.0.1
+    login: user
+    password: pwd
+    vhost: /
+vhost_test:
+    host: 127.0.0.1
+    login: user
+    password: pwd
+    vhost: esportschain
+
+rabbitmq_conf:
+    host: 127.0.0.1
+    port: 5672
+    user: user
+    password: pwd
+    vhost: esportschain
+
+vhost_pubg:
+    host: 127.0.0.1
+    login: user
+    password: pwd
+    vhost: esportschain
+

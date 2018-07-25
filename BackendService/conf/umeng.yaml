@@ -1,0 +1,11 @@
+push:
+    and:
+        app_key: ''
+        message_secret: ''
+        app_master_secret: ''
+        development: 1
+    ios:
+        app_key: ''
+        app_master_secret: ''
+        development: 1
+
