@@ -163,7 +163,7 @@ class PullPubgData:
     def get_recent_player_match(self, server, nickname, start_time):
         where = "server='%s' AND nickname='%s' AND start_time>='%s'" % (server, nickname, start_time)
         res = self.mdbcur.fetch_more(table=get_pubg_pd_table(nickname=nickname), where=where, fields='match_id')
-        return [] if not res else [x.get('match_id') for x in res]
+        return [] if not res or type(res) is int else [x.get('match_id') for x in res]
 
     def get_last_time(self, server, nickname):
    
