@@ -24,7 +24,6 @@ class MySQLBase:
             self.error_msg = "MySQL error, msg: {}".format(err)
 
         self.is_debug = False
-        self.error_msg = ''
 
     def ready(self):
         return hasattr(self, '_MySQLBase__cursor')
