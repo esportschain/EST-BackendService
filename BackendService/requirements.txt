@@ -29,7 +29,7 @@ rlp==1.0.1
 six==1.11.0
 toolz==0.9.0
 tornado==5.1
-urllib3==1.23
+urllib3==1.24.2
 urlparse3==1.1
 virtualenv==16.0.0
 web3==4.4.1
