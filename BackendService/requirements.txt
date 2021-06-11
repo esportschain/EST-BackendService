@@ -33,5 +33,5 @@ urllib3==1.24.2
 urlparse3==1.1
 virtualenv==16.0.0
 web3==4.4.1
-websockets==5.0.1
+websockets==9.1
 supervisor==3.3.3
